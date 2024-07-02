@@ -275,17 +275,17 @@ export const listingTypes = [
       payoutDetails: true,
     },
   },
-  // // Here are some examples for other listingTypes
-  // // TODO: SearchPage does not work well if both booking and product selling are used at the same time
-  // {
-  //   listingType: 'nightly-booking',
-  //   label: 'Nightly booking',
-  //   transactionType: {
-  //     process: 'default-booking',
-  //     alias: 'default-booking/release-1',
-  //     unitType: 'night',
-  //   },
-  // },
+  // Here are some examples for other listingTypes
+  // TODO: SearchPage does not work well if both booking and product selling are used at the same time
+  {
+    listingType: 'nightly-booking',
+    label: 'Nightly booking',
+    transactionType: {
+      process: 'default-booking',
+      alias: 'default-booking/release-1',
+      unitType: 'night',
+    },
+  },
   // {
   //   listingType: 'hourly-booking',
   //   label: 'Hourly booking',
